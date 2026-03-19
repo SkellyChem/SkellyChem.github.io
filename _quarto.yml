@@ -10,7 +10,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - href: posts/mtg-card-prices.qmd
+      - href: posts/Blog_post_MTG.qmd
         text: MTG Card Prices
 
 format:

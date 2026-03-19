@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Seth Kelly | Data Science Blog",
+    "section": "",
+    "text": "Welcome to my data science blog. I’m a student at BYU exploring data collection, analysis, and visualization."
+  },
+  {
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "Seth Kelly | Data Science Blog",
+    "section": "Posts",
+    "text": "Posts\n\nWhat Makes Magic: The Gathering Cards Expensive?"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi, I’m Seth Kelly, a student at Brigham Young University studying data science. This blog documents projects I’ve worked on for STAT 386."
+  }
+]

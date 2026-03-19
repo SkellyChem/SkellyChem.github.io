@@ -6,4 +6,4 @@ Welcome to my data science blog. I'm a student at BYU exploring data collection,
 
 ## Posts
 
-- [What Makes Magic: The Gathering Cards Expensive?](posts/mtg-card-prices.qmd)
+- [What Makes Magic: The Gathering Cards Expensive?](posts/Blog_post_MTG.qmd)
