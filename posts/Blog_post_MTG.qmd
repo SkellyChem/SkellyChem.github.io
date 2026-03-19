@@ -14,6 +14,14 @@ Additionally, a newer way to play the game has recently turned traditional Magic
 I used the [Scryfall API](https://scryfall.com/docs/api) to collect card data. Scryfall is a free, open API that requires no account or API key, which makes it a fantastic resource for hobbyist data projects. I queried for all English, non-digital cards with a listed USD price, handling each page of 175 cards automatically until I had the full dataset. To be an ethical data scientist, I added a 100ms delay between requests as requested by the Scryfall API. Additionally, Scryfall's terms of service explicitly permit this kind of personal and educational use, so no ethical concerns there.
  
 From the raw data I kept only the fields relevant to my question: card name, price, foil price, colors, converted mana cost (CMC), Commander legality, rarity, card type, and release year. I then filtered down to the 1,000 most expensive cards by non-foil USD price, excluding basic lands (very common cards that are constantly reprinted) and oversized novelty cards (not legal in any form of the game) along the way. Prices ranged from $11.86 (Watery Grave) at the bottom to $5,142.02 (Timetwister) at the top.
+
+Here is an example of the data I collected for some of the cards:
+```{python}
+import pandas as pd
+
+df = pd.read_csv("mtg_top1000.csv")
+df.head()
+```
  
 ## What I Found
  
@@ -39,4 +47,4 @@ Converted mana cost, or CMC, refers to the total amount of mana required to cast
  
 ## Dataset and Code
  
-The full dataset and collection code are available on [GitHub](#your-repo-link-here). The final dataset contains 1,000 rows and 9 columns, and was collected entirely through the Scryfall API.
+The full dataset and collection code are available on [GitHub](https://github.com/SkellyChem/What-Makes-Magic-The-Gathering-Cards-Expensive-). The final dataset contains 1,000 rows and 9 columns, and was collected entirely through the Scryfall API.
