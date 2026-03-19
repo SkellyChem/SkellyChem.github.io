@@ -1,0 +1,5 @@
+---
+title: "About Me"
+---
+
+Hi, I'm Seth Kelly, a student at Brigham Young University studying data science. This blog documents projects I've worked on for STAT 386.

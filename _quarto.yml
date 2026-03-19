@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Seth Kelly"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: posts/mtg-card-prices.qmd
+        text: MTG Card Prices
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css

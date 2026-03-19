@@ -1,0 +1,9 @@
+---
+title: "Seth Kelly | Data Science Blog"
+---
+
+Welcome to my data science blog. I'm a student at BYU exploring data collection, analysis, and visualization.
+
+## Posts
+
+- [What Makes Magic: The Gathering Cards Expensive?](posts/mtg-card-prices.qmd)
